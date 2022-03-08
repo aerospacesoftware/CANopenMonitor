@@ -106,7 +106,7 @@
             // 
             this.splitContainer1.AccessibleRole = System.Windows.Forms.AccessibleRole.MenuBar;
             this.splitContainer1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.splitContainer1.Location = new System.Drawing.Point(0, 28);
+            this.splitContainer1.Location = new System.Drawing.Point(0, 30);
             this.splitContainer1.Margin = new System.Windows.Forms.Padding(4);
             this.splitContainer1.Name = "splitContainer1";
             this.splitContainer1.Orientation = System.Windows.Forms.Orientation.Horizontal;
@@ -132,8 +132,8 @@
             // splitContainer1.Panel2
             // 
             this.splitContainer1.Panel2.Controls.Add(this.tabControl1);
-            this.splitContainer1.Size = new System.Drawing.Size(1464, 831);
-            this.splitContainer1.SplitterDistance = 83;
+            this.splitContainer1.Size = new System.Drawing.Size(1464, 829);
+            this.splitContainer1.SplitterDistance = 82;
             this.splitContainer1.SplitterWidth = 5;
             this.splitContainer1.TabIndex = 1;
             // 
@@ -152,7 +152,7 @@
             // checkBox_showNMTEC
             // 
             this.checkBox_showNMTEC.AutoSize = true;
-            this.checkBox_showNMTEC.Location = new System.Drawing.Point(1067, 36);
+            this.checkBox_showNMTEC.Location = new System.Drawing.Point(1067, 33);
             this.checkBox_showNMTEC.Margin = new System.Windows.Forms.Padding(4);
             this.checkBox_showNMTEC.Name = "checkBox_showNMTEC";
             this.checkBox_showNMTEC.Size = new System.Drawing.Size(78, 21);
@@ -176,7 +176,7 @@
             // checkBox_showSDO
             // 
             this.checkBox_showSDO.AutoSize = true;
-            this.checkBox_showSDO.Location = new System.Drawing.Point(943, 58);
+            this.checkBox_showSDO.Location = new System.Drawing.Point(943, 57);
             this.checkBox_showSDO.Margin = new System.Windows.Forms.Padding(4);
             this.checkBox_showSDO.Name = "checkBox_showSDO";
             this.checkBox_showSDO.Size = new System.Drawing.Size(60, 21);
@@ -188,7 +188,7 @@
             // checkBox_showPDO
             // 
             this.checkBox_showPDO.AutoSize = true;
-            this.checkBox_showPDO.Location = new System.Drawing.Point(943, 29);
+            this.checkBox_showPDO.Location = new System.Drawing.Point(943, 32);
             this.checkBox_showPDO.Margin = new System.Windows.Forms.Padding(4);
             this.checkBox_showPDO.Name = "checkBox_showPDO";
             this.checkBox_showPDO.Size = new System.Drawing.Size(60, 21);
@@ -316,7 +316,7 @@
             this.tabControl1.Margin = new System.Windows.Forms.Padding(4);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(1464, 743);
+            this.tabControl1.Size = new System.Drawing.Size(1464, 742);
             this.tabControl1.TabIndex = 1;
             // 
             // tabPage1
@@ -326,7 +326,7 @@
             this.tabPage1.Margin = new System.Windows.Forms.Padding(4);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(4);
-            this.tabPage1.Size = new System.Drawing.Size(1456, 714);
+            this.tabPage1.Size = new System.Drawing.Size(1456, 713);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Monitor";
             this.tabPage1.UseVisualStyleBackColor = true;
@@ -341,10 +341,11 @@
             this.columnHeader4,
             this.columnHeader5});
             this.listView1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.listView1.HideSelection = false;
             this.listView1.Location = new System.Drawing.Point(4, 4);
             this.listView1.Margin = new System.Windows.Forms.Padding(4);
             this.listView1.Name = "listView1";
-            this.listView1.Size = new System.Drawing.Size(1448, 706);
+            this.listView1.Size = new System.Drawing.Size(1448, 705);
             this.listView1.TabIndex = 0;
             this.listView1.UseCompatibleStateImageBehavior = false;
             this.listView1.View = System.Windows.Forms.View.Details;
@@ -397,6 +398,7 @@
             this.columnHeader6,
             this.columnHeader7});
             this.listView_nmt.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.listView_nmt.HideSelection = false;
             this.listView_nmt.Location = new System.Drawing.Point(4, 4);
             this.listView_nmt.Margin = new System.Windows.Forms.Padding(4);
             this.listView_nmt.Name = "listView_nmt";
@@ -438,6 +440,7 @@
             this.columnHeader10,
             this.columnHeader11});
             this.listView_emcy.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.listView_emcy.HideSelection = false;
             this.listView_emcy.Location = new System.Drawing.Point(0, 0);
             this.listView_emcy.Margin = new System.Windows.Forms.Padding(4);
             this.listView_emcy.Name = "listView_emcy";
@@ -498,7 +501,7 @@
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Padding = new System.Windows.Forms.Padding(8, 2, 0, 2);
-            this.menuStrip1.Size = new System.Drawing.Size(1464, 28);
+            this.menuStrip1.Size = new System.Drawing.Size(1464, 30);
             this.menuStrip1.TabIndex = 2;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -515,62 +518,62 @@
             this.toolStripSeparator3,
             this.quitToolStripMenuItem});
             this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
-            this.fileToolStripMenuItem.Size = new System.Drawing.Size(44, 24);
+            this.fileToolStripMenuItem.Size = new System.Drawing.Size(46, 24);
             this.fileToolStripMenuItem.Text = "File";
             // 
             // mnuRecentlyUsed
             // 
             this.mnuRecentlyUsed.Name = "mnuRecentlyUsed";
-            this.mnuRecentlyUsed.Size = new System.Drawing.Size(180, 26);
+            this.mnuRecentlyUsed.Size = new System.Drawing.Size(188, 26);
             this.mnuRecentlyUsed.Text = "Recent Plugins";
             // 
             // loadPluginToolStripMenuItem
             // 
             this.loadPluginToolStripMenuItem.Name = "loadPluginToolStripMenuItem";
-            this.loadPluginToolStripMenuItem.Size = new System.Drawing.Size(180, 26);
+            this.loadPluginToolStripMenuItem.Size = new System.Drawing.Size(188, 26);
             this.loadPluginToolStripMenuItem.Text = "Load Plugin";
             this.loadPluginToolStripMenuItem.Click += new System.EventHandler(this.loadPluginToolStripMenuItem_Click);
             // 
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(177, 6);
+            this.toolStripSeparator1.Size = new System.Drawing.Size(185, 6);
             // 
             // saveDataToolStripMenuItem
             // 
             this.saveDataToolStripMenuItem.Name = "saveDataToolStripMenuItem";
-            this.saveDataToolStripMenuItem.Size = new System.Drawing.Size(180, 26);
+            this.saveDataToolStripMenuItem.Size = new System.Drawing.Size(188, 26);
             this.saveDataToolStripMenuItem.Text = "Save Data";
             this.saveDataToolStripMenuItem.Click += new System.EventHandler(this.saveDataToolStripMenuItem_Click);
             // 
             // loadDataToolStripMenuItem
             // 
             this.loadDataToolStripMenuItem.Name = "loadDataToolStripMenuItem";
-            this.loadDataToolStripMenuItem.Size = new System.Drawing.Size(180, 26);
+            this.loadDataToolStripMenuItem.Size = new System.Drawing.Size(188, 26);
             this.loadDataToolStripMenuItem.Text = "Load Data";
             this.loadDataToolStripMenuItem.Click += new System.EventHandler(this.loadDataToolStripMenuItem_Click);
             // 
             // toolStripSeparator2
             // 
             this.toolStripSeparator2.Name = "toolStripSeparator2";
-            this.toolStripSeparator2.Size = new System.Drawing.Size(177, 6);
+            this.toolStripSeparator2.Size = new System.Drawing.Size(185, 6);
             // 
             // preferencesToolStripMenuItem
             // 
             this.preferencesToolStripMenuItem.Name = "preferencesToolStripMenuItem";
-            this.preferencesToolStripMenuItem.Size = new System.Drawing.Size(180, 26);
+            this.preferencesToolStripMenuItem.Size = new System.Drawing.Size(188, 26);
             this.preferencesToolStripMenuItem.Text = "Preferences";
             this.preferencesToolStripMenuItem.Click += new System.EventHandler(this.preferencesToolStripMenuItem_Click);
             // 
             // toolStripSeparator3
             // 
             this.toolStripSeparator3.Name = "toolStripSeparator3";
-            this.toolStripSeparator3.Size = new System.Drawing.Size(177, 6);
+            this.toolStripSeparator3.Size = new System.Drawing.Size(185, 6);
             // 
             // quitToolStripMenuItem
             // 
             this.quitToolStripMenuItem.Name = "quitToolStripMenuItem";
-            this.quitToolStripMenuItem.Size = new System.Drawing.Size(180, 26);
+            this.quitToolStripMenuItem.Size = new System.Drawing.Size(188, 26);
             this.quitToolStripMenuItem.Text = "Quit";
             this.quitToolStripMenuItem.Click += new System.EventHandler(this.quitToolStripMenuItem_Click);
             // 
